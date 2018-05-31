@@ -1,0 +1,14 @@
+<view class='container'>
+  <button open-type="getUserInfo" bindgetuserinfo="userInfoHandler" hidden='{{isLoginIn}}'>用户授权</button>
+  <view class='userInfoContainer'>
+    <image class='avatarImg' src='{{userInfo.avatarUrl}}'></image>
+    <text class='userName'>{{userInfo.nickName}}</text>
+  </view>
+  <view class='my_task_list_section'>
+    <text class='my_task_list_title'>我的任务列表</text>
+    <view class='my_task_list_row'>
+      <text wx:for='{{myTaskList}}'>{{index}}. 类型:{{item.tipType}}, 内容: {{item.content}}, 是否校验:{{item.isVerified}}</text>
+    </view>
+    <!-- <text class='myTaskList' bindtap='showMyTaskList'>我的任务列表</text> -->
+  </view>
+</view>

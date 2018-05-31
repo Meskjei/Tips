@@ -1,0 +1,46 @@
+{
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Tips",
+    "navigationBarTextStyle": "black"
+  },
+  "pages": [
+    "home/home",
+    "login/login",
+    "upload/upload",
+    "tasks/tasks",
+    "detail/detail",
+    "tasksDetail/tasksDetail",
+    "my/my",
+    "myTaskList/myTaskList"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "home/home",
+        "text": "主页",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/home.png"
+      },
+      {
+        "pagePath": "upload/upload",
+        "text": "上传",
+        "iconPath": "image/upload.png",
+        "selectedIconPath": "image/upload.png"
+      },
+      {
+        "pagePath": "tasks/tasks",
+        "text": "任务",
+        "iconPath": "image/task.png",
+        "selectedIconPath": "image/task.png"
+      },
+      {
+        "pagePath": "my/my",
+        "text": "我的",
+        "iconPath": "image/my.png",
+        "selectedIconPath": "image/my.png"
+      }
+    ]
+  }
+}

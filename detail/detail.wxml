@@ -1,0 +1,7 @@
+<view class='container'>
+  <text class='tipType'>{{tipData.tipType}}</text>
+  <text class='content'>{{tipData.content}}</text>
+  <text class='locationName'>地名：{{tipData.locationName}}</text>
+  <map id='map' latitude='{{tipData.position.coordinates[1]}}' longitude='{{tipData.position.coordinates[0]}}' scale='16' show-location='{{true}}'></map>
+  <text class='locationAddress'>位置：{{tipData.locationAddress}}</text>
+</view>

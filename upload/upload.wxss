@@ -1,0 +1,39 @@
+/* upload/upload.wxss */
+.container{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+}
+
+.typePickerView{
+  display: flex;
+  align-items: center;
+}
+
+.pickerText{
+  font-size: 35rpx;
+}
+
+.pickerInput{
+  font-size: 35rpx;
+  width: 75rpx;
+}
+
+.tipContentView{
+  margin-top: 10%;
+  height: 50%;
+}
+
+.btn-area{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.btn{
+  width: 25%;
+  height: 20%;
+}
